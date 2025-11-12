@@ -117,47 +117,8 @@ async function getPost(id: string) {
 }
 \`\`\`
 
-## 🛠️ Setup Instructions
 
-### Prerequisites
-- Node.js 18.17 or later
-- npm, yarn, or pnpm
 
-### Installation
-
-1. **Clone the repository**:
-\`\`\`bash
-git clone <your-repo-url>
-cd nextjs-rendering-demo
-\`\`\`
-
-2. **Install dependencies**:
-\`\`\`bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-\`\`\`
-
-3. **Run the development server**:
-\`\`\`bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-\`\`\`
-
-4. **Open your browser**:
-Navigate to [http://localhost:3000](http://localhost:3000)
-
-### Build for Production
-
-\`\`\`bash
-npm run build
-npm start
-\`\`\`
 
 ## 🎨 Technologies Used
 
@@ -187,54 +148,9 @@ npm start
 - Real-time search results
 - Demonstrates CSR for interactive features
 
-## 🧪 Testing the Rendering Techniques
-
-### Test CSR (Home Page)
-1. Visit the home page
-2. Watch the clock update every second
-3. Open DevTools Network tab - no requests after initial load
-
-### Test SSR (About Page)
-1. Visit the about page
-2. Note the timestamp at the bottom
-3. Refresh the page - timestamp updates (new server render)
-
-### Test SSG (Blog List)
-1. Visit the blog page
-2. Check Network tab - instant load (pre-rendered)
-3. View page source - full HTML is present
-
-### Test ISR (Blog Detail)
-1. Visit any blog post
-2. Refresh within 60 seconds - same cached version
-3. Wait 60+ seconds and refresh - page regenerates
-
-## 📚 Learning Resources
-
-- [Next.js Documentation](https://nextjs.org/docs)
-- [React Documentation](https://react.dev)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [shadcn/ui Documentation](https://ui.shadcn.com)
-
 ## 🚢 Deployment
 
-This project is ready to deploy on Vercel:
+![Deploy with Vercel](next-js-demo-4x2r14uom-ualine055-5515s-projects.vercel.app)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
-
-1. Push your code to GitHub
-2. Import the repository in Vercel
-3. Deploy with one click
-4. Add the deployment URL to your GitHub repository's About section
-
-## 📄 License
-
-MIT License - feel free to use this project for learning and development.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
----
-
-Built with ❤️ using Next.js 16 and the App Router
+## Github Repository Link
+![Github link](https://github.com/Ualine055/Next.js-Demo.git)
